@@ -12,6 +12,7 @@ import Blog from "@/components/Blog";
 import Customers from "@/components/Customers";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 export default function Home() {
   return (
@@ -26,6 +27,9 @@ export default function Home() {
       <Customers />
       <Contact />
       <Footer />
+      <div>
+        <ScrollToTopButton />
+      </div>
     </div>
   );
 }
